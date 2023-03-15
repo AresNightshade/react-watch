@@ -15,7 +15,8 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 300px;
+	padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +36,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.showlink {
+	padding: 0.4rem 0.8rem;
+	background-color: #F5F5F5;
+	border-radius: 3px;
+	color: #1e8678;
+	text-decoration: none !important;
+	margin: 5px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
 }
